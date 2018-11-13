@@ -5,7 +5,7 @@ yum -y install -y yum-utils device-mapper-persistent-data lvm2
 yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 yum-config-manager --enable docker-ce-edge
 yum-config-manager --enable docker-ce-test
-yum -y install docker-ce
+yum -y install docker-ce-18.06*
 
 echo "Docker Setup is complete" 
 
