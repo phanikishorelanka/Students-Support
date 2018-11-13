@@ -1,3 +1,6 @@
+#script to install docker ce on centos or rhel or oel
+#script by - phanikishorelanka@gmail.com"
+
 echo " Removing any Old Docker Versions" 
 yum remove docker docker-client docker-client-latest docker-common docker-latest docker-latest-logrotate docker-logrotate docker-selinux docker-engine-selinux docker-engine
 
