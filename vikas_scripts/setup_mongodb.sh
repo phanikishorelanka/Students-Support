@@ -1,3 +1,4 @@
+yum -y install wget 
 cd /etc/yum.repos.d/
 wget https://raw.githubusercontent.com/phanikishorelanka/docker-k8s-pklanka/master/mongo.repo
 cp /etc/security/limits.conf /etc/security/limits.conf.orig
