@@ -4,7 +4,7 @@
 sudo yum -y install epel-release
 sudo yum update
 
-sudo yum install redis
+sudo yum -y install redis
 
 sudo systemctl start redis
 sudo systemctl enable redis
