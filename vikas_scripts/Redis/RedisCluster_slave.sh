@@ -37,7 +37,7 @@ Master_Port='6379'
 
 sudo cp /etc/redis.conf /etc/redis.conf.orig3
 
-sudo sed -i "s/^#\sslaveof/ slaveof/g" /etc/redis.conf
+sudo sed -i "s/^#\sslaveof/slaveof/g" /etc/redis.conf
 sudo sed -i "s/<masterip>/${Master_IP}/g" /etc/redis.conf
 sudo sed -i "s/<masterport>/${Master_Port}/g" /etc/redis.conf
 
