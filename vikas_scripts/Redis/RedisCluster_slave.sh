@@ -1,6 +1,7 @@
 #!/bin/sh 
 #yum installs 
 
+app_name=$1
 sudo yum -y install epel-release
 sudo yum update
 
@@ -31,7 +32,7 @@ IP=`hostname -i`
 sed "s/bind[[:space:]]127.0.0.1/bind 127.0.0.1 ${IP}/g" /etc/redis.conf
 
 
-Master_IP=`ping -c 1 master | grep icmp_seq | awk {'print $5'} | sed 's/(//g ' | sed 's/)://g'`
+Master_IP=`ping -c 1 $app_name-master | grep icmp_seq | awk {'print $5'} | sed 's/(//g ' | sed 's/)://g'`
 Master_Port='6379'
 
 sudo cp /etc/redis.conf /etc/redis.conf.orig3
