@@ -9,4 +9,4 @@ sudo yum -y install jenkins
 
 sudo systemctl status jenkins.service
 sudo systemctl enable jenkins
-chkconfig jenkins on 
+sudo chkconfig jenkins on 
