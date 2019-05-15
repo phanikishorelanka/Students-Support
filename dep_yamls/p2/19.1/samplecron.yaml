@@ -3,13 +3,13 @@ kind: CronJob
 metadata:
   name: hello-app1
 spec:
-  schedule: "*/20 * * * *"
+  schedule: "*/10 * * * *"
   jobTemplate:
     spec:
       template:
         spec:
           containers:
-          - name: hello-app
+          - name: hello-app1
             image: busybox
             args:
             - /bin/sh
