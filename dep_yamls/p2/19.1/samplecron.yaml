@@ -1,7 +1,7 @@
 apiVersion: batch/v1beta1
 kind: CronJob
 metadata:
-  name: hello-chaitanya
+  name: hello-app
 spec:
   schedule: "*/20 * * * *"
   jobTemplate:
@@ -9,7 +9,7 @@ spec:
       template:
         spec:
           containers:
-          - name: hello-chaitanya
+          - name: hello-app
             image: busybox
             args:
             - /bin/sh
