@@ -51,7 +51,9 @@ do
 echo $i
 repo_val=`echo $i | cut -d'.' -f1`
   for x in `cat $i`
-   do
+   do 
+   mkdir -p ~/backups_chaitanya/${repo_val}_${x}; > backup_autogen_Script.sh
+   cd ~/backups_chaitanya/${repo_val}_${x}; >> backup_autogen_Script.sh
    echo git clone http://github.com/$GHUSER/$repo_val.git -b ${x} >>backup_autogen_Script.sh
    done
 done
