@@ -37,7 +37,7 @@ check_error()
             }
 
 
-aws ec2 run-instances --image-id ami-0889b8a448de4fc44 --count 1 --instance-type $instance_type --key-name $keypair --region $region --security-group-ids $security_group --user-data file://setup_docker.sh
+aws ec2 run-instances --image-id ami-0889b8a448de4fc44 --count 1 --instance-type $instance_type --key-name $keypair --region $region --user-data file://setup_docker.sh
 check_error
 
 

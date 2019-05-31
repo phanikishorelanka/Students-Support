@@ -9,4 +9,6 @@ sudo yum -y install jenkins
 
 sudo systemctl status jenkins.service
 sudo systemctl enable jenkins
-sudo chkconfig jenkins on 
+sudo chkconfig jenkins on
+
+sudo yum -y install nginx openssl
