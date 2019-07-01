@@ -1,0 +1,3 @@
+https://github.com/phanikishorelanka/Azure.git
+https://github.com/phanikishorelanka/aws.git
+https://github.com/phanikishorelanka/Docker.git
