@@ -74,6 +74,33 @@ Application Automation -  we use this to deploy using jenkins , we use this for 
                            basically we create an inventory file and group the hosts and trigger based on the inventory. 
 
 
+
+**ABout Projects. 
+
+Product Based Companies:- 
+
+         - i work for Corp Projects i.e the company projects and i am responsible for maintaining and managing them. 
+
+
+Project 1 :- 
+        - I work for Corp Broadcast Applications. These are basically Company Broadcast for internal and external customers. 
+        - Application is to create a email campaign and send it across to the audience filtering the contact list, 
+        - this application ensures right email is sent to right people , specific band people emails will go specific people only. 
+        - This Application is developped in Front end Java script and complete business logic is in Java J2EE. 
+        - My Role includes doing Production Suport for this, New Applications and offers onboarding, Day in and day out deployments, 
+        Day in and Day out change requests and scheduled and unscheudle maintainences, system patching, security patching etc. 
+        - i work with various teams in case of any requirement and do a collective effort to bring maturity to the Process through Automation. 
+        - This Application is Deployed on AWS Cloud. 
+
+Project 2 
+        - I work for the ETL Applicatoin (Extract , Transform, Load )
+        - THis Application is deployed in AWS, has a Python as business logic and database oracle rds as a backend.
+        - We Do the Extraction from the data kept in sftp/s3 bucket, this data is unstructured data. 
+        - the Applicaation reads the data in s3 bucket, applies some machine level algorithms and do the Data prediction. 
+        - Here we use Project Anaconda/Jupyter/Hadoop cluster and the Data is read from the bucket is converted to structurd format 
+        - the Structured data is sent back to RDS and the Frontend ui will do the ANlaytics and ML Capabilities and show the data. 
+        - My Responsibility is manage the AWS infrastrucutre/Monitor the Resources/ Provide Production Support.  
+
                            
 
 
