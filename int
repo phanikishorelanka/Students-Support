@@ -74,6 +74,19 @@ Application Automation -  we use this to deploy using jenkins , we use this for 
                            basically we create an inventory file and group the hosts and trigger based on the inventory. 
 
 
+**GCP 
+
+**GCP 
+
+1. I have been through the phase of Google Cloud Implimentation from the Begining interacting with Google team 
+creating the Organization and setting up Policies for the Projects and Folders. 
+2. I have involved and configured the GCP with identity Federation OKTA for NOrmal Users and MFA for Admin Accounts.
+3. I have involved in the setup of creating the VPC, Shared VPC (Sharing VPC b/w Projects), Security Command Center, Stack Driver logging and etc. 
+4. I have interacted with Various teams in Creating the DOcker Images and Deploying the containers on the GKE (Google Kubernetes ENgine)
+5. I have experience working with Kubernetes creting services, Deployments, Replica sets, cronjobs , job pods, init containers, config maps, secrets, policies, helm charts as well. 
+6. I have experience creating the infrastructure on GCP using Terraform. I have created the VPC , Created the IAM Roles, Managing the Identities. 
+7. I have experience working with Hashicorp vault in integration to the Google CLoud Platform for integaration of our secrets. 
+
 
 **ABout Projects. 
 
