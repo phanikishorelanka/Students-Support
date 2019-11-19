@@ -1,15 +1,14 @@
 About me 
-  1. Hi I am currently working as a Devops Engineer, I am basically a Developper Administrator. 
+  1. Hi I am currently working as a Devops Engineer, I am a Developper Administrator. 
   2. I Work as solutions architect and also do Production Suppport.  
-  3. 50% of my work is based on Development in Devops Projects, 
-     50% is on the Production Support, We Prioritize Production. 
+  3. 50% of my work is on Devops Projects & anathor 50% is on the Production Support, For us Production is Important. 
   4. My Responsibility is to work with Various teams and bring maturity to the Devops Processes. 
-  5. Most of my work is on CLoud Implimentations/Migraitons, Cloud Operations, Cloud Security. 
-     Implimentation - i have knowledge how to impliment a hybrid cloud for a organization. 
-     Migrations - i have knowledge how to move the onprem to cloud , how to move virtual machines, storages using AWS migration service etc. 
-     Operations - Day to Day Operations on creating instances, deploying and updating them. 
-  6. I held Responsible for the ENtire Release Management and impliment it on various tools like Jenkins. In this Process i work with various teams in 
-  understanding the Process and creating pipelines to mature thier processes. 
+  5. Most of my work is on CLoud Implimentations and Migraitons and Cloud Operations and Cloud Security. 
+     In Implimentation - i have knowledge how to impliment a hybrid cloud for a Company and How to define Network Rules. 
+     In Migrations - i have knowledge how to move the onprem to cloud , either Lift & Shift or Doing Migration from Scratch
+                     I know how to move virtual machines, storages using AWS migration service etc. 
+     In Operations - Day to Day Operations on creating instances, deploying and updating them. 
+  6. I am Responsible for the ENtire Build & Release Management i.e CI/CD work , I work with Various teams in understanding thier requirements and implimenting using jenkins, bitbucket, gitlabs etc. 
   7. i have very good knowledge on Production Support, Incident Management, Problem Management, Change Management, Source control using git, Docker , Kubernetes , Configuraation Management using Ansible , Infrastructure as a code using terraform and aws/azure clouds.  
  
 
