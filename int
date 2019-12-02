@@ -17,9 +17,11 @@ About me
   build relationships with various team in order to acheive my day to day Goal. 
   9. I actively work as a Program Manager Supporting various DOmains in Cloud Defining Solutions , Defining Security Standards, Creating Baseline Documentation,
   Managing Sprints and Operting in the Agile Fashion following ScrumBan, Kanban Dashboards, I also do a Role of Scrum Master, Do Sprint Planning as well. 
-  
- 
 
+
+
+
+ 
 Technologies 
 
 **AWS 
@@ -31,6 +33,7 @@ AMI(Amazon Machine Images), cloud watch, cloud trail, configuring the Lamdba fun
 3. we Support Monitoring AWS using the Cloud watch,Cloud trail, VPC Flowlogs and identifying the Misconfigurations on Environments using a tool called Prisma Cloud. 
 4. I also do the Infrastrucutre as a Code using the Cloud Formation as well as Terraform. Mostly Terraform is what i work and have expertise on. 
 5. In Addition to this, we support some services like API Gateway, AWS Lamdba, AWS QuickSight, Sage Maker etc. 
+6. I have involved in Complete Implimentation of AWS EKS/ECR etc to Manage our Kubernetes Environments. 
 
 ------------------------------------------------------------------------- 
 
@@ -88,8 +91,6 @@ Application Automation -  we use this to deploy using jenkins , we use this for 
 
 **GCP 
 
-**GCP 
-
 1. I have been through the phase of Google Cloud Implimentation from the Begining interacting with Google team 
 creating the Organization and setting up Policies for the Projects and Folders. 
 2. I have involved and configured the GCP with identity Federation OKTA for NOrmal Users and MFA for Admin Accounts.
@@ -143,7 +144,5 @@ Operations & Troubleshooting
 9. I held responsible for creating the RCA (Root cause analysis) Document and conducting Postmortem calls to ensure that the Problems are fixed permanently. 
 10. I have very good knowldge on ITIL (CHange Management, Problem Management , Incident Mangement etc)
 
-                           
-
-
-     
+                        
+    
