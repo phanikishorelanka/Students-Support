@@ -1,0 +1,6 @@
+1. What was the situation where something is not possible with you and How did you convince and get the work done ? 
+
+Ans:- Taking the example of NAT Gateway not having a feature to control the outbound internet access can lead to Data Exfilteration. 
+This was a limitation, When we bought this up with various teams internally and came up with a Proxy Solution as an intrim fix. 
+
+2. Give an Example 
