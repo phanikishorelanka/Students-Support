@@ -1,0 +1,98 @@
+About me 
+  1. Hi I am currently working as a Devops Engineer, I am a Developper Administrator.   
+  2. i do 50 % of Devops work and 50% supporting Production Environments & doing Middleware Administration.  
+  3. I come with a strong background Linux, SHell Scripting, Power Shell, Jython Scripting and architecting solutions on Middleware Products. 
+  4. I have extensively worked on weblogic, Fusion Middleware, Jboss, Tomcat, Apache web server, Oracle Http Server etc. 
+  5. I have also strong knowledge of doing the database administration for Oracle and My SQL Databases. 
+  6. In addition to this, I have experience Doing build and Release Automation on Jenkins. 
+  7. I have written multiple jython scripts for monitoring, Deployments and day in day out operations. 
+  8. I have worked with various teams in architecturing multiple Projects and taking them live to Production. 
+  9. I have also worked Containerizing various Applications in Docker and Archestrating them with Kubernetes. 
+  10. I have also good experience working with Oracle CLoud, AWS, Azure. 
+  
+  Read Only for Managers/Lead Positions 
+  11. I am responsible for Managing my team. I do create Project Plan and coordinate with Partners, Customers, Internal Stakeholders to take various approvals and 
+  build relationships with various team in order to acheive my day to day Goal. 
+  12. I actively work as a Program Manager Supporting various DOmains in Cloud Defining Solutions , Defining Security Standards, Creating Baseline Documentation,
+  Managing Sprints and Operting in the Agile Fashion following ScrumBan, Kanban Dashboards, I also do a Role of Scrum Master, Do Sprint Planning as well. 
+
+Day to day 
+What are your day to day operations?
+  - I am Developper Administrator , 50% of doing Developments using Devops Technologies & 50% doing the Production Support. 
+  - IN Devops Work, I get Several tickets on New AUtomations, CHanges to Pipelines, Executing & MOnitoring MOnthly/Weekly/Daily Builds. 
+  - I am responsible for writing Automation on Provisioning the Resources in Middleware doing the silent installation. 
+  - I do the Release Management work using Jenkins. 
+  - I am responsible for Ensuring that Monitoring is Done on Each Asset and Ensure we are getting the logs. 
+  - 25% of my work is on exploring new Technologies and doing POC on new tickets and Provide the Feedback and Make Production Ready APplications. 
+  - Day starts with Checking the tickets, Responding to them and Gatekeeping Production Environment. 
+
+ 
+**Jenkins 
+1. I have experience building jenkins jobs and configuring jenkins pipelines to automate day in day out tasks. 
+2. In Jenkins i have experience working with Groovy , pipeline syntax.  
+3. Apart from these i have experience making the CI/CD as automated by creating the webhooks and make it as event driven. 
+4. My CI Pipeline looks like , its a 5 staged pipeline. 
+         Stage 1 --> Code Checkout. 
+                       - Here we do the Code checkout from the version control
+         Stage 2 --> Code Build / Artifact creation. 
+                       - This is the Place we do the Artifact creation i.e war/jar/ear/zip/bin etc. 
+         Stage 3 --> Upload Artifact 
+                       - Here is the Point where we upload the artifact to artifactor like Jfrog artifactory/ Nesus Repository. 
+                       - Here we use curl command in a combinatio nwith Authentication token. 
+         Stage 4 --> Docker image creation. 
+                       - Here we checkout the Dockerfile code from the Devops git and from the artifact that is created in previous step. 
+                         we create a docker image from the dockerfile by copying the artifact to the image. 
+         Stage 5 --> upload image to the Docker Registry 
+                       - Once the image is created , you can upload it to the ECR(AWS-Elastic Container Registry)/ACR(Azure Container Registry) 
+
+**Docker & Kubernetes:- 
+
+1. My Responsibility in Docker is to work with Various teams and understand the Application and convert the vm based application to a docker image and scale them and deploy them on the kubernetes cluster like EKS(elastic Kubernetes Service)/AKS(Azure Kubernetes cluster)
+
+2. I have knowledge on Creating Pods, Deployments, Replica sets, Pod Autoscaling , Creating Services (NodePort/CLusterIP/Load Balancer) , Kubernetes cronjob, job etc we can do. 
+Apart from this i have good knowledge working with yaml as well. 
+
+**ABout Projects. 
+
+Product Based Companies:- 
+
+         - i work for Corp Projects i.e the company projects and i am responsible for maintaining and managing them. 
+
+Project 1 :- 
+        - I work for Corp Broadcast Applications. These are basically Company Broadcast for internal and external customers. 
+        - Application is to create a email campaign and send it across to the audience filtering the contact list, 
+        - this application ensures right email is sent to right people , specific band people emails will go specific people only. 
+        - This Application is developped in Front end Java script and complete business logic is in Java J2EE. 
+        - My Role includes doing Production Suport for this, New Applications and offers onboarding, Day in and day out deployments, 
+        Day in and Day out change requests and scheduled and unscheudle maintainences, system patching, security patching etc. 
+        - i work with various teams in case of any requirement and do a collective effort to bring maturity to the Process through Automation. 
+        - This Application is Deployed on AWS Cloud. 
+
+Project 2 
+        - I work for the ETL Applicatoin (Extract , Transform, Load )
+        - THis Application is deployed in AWS, has a Python as business logic and database oracle rds as a backend.
+        - We Do the Extraction from the data kept in sftp/s3 bucket, this data is unstructured data. 
+        - the Applicaation reads the data in s3 bucket, applies some machine level algorithms and do the Data prediction. 
+        - Here we use Project Anaconda/Jupyter/Hadoop cluster and the Data is read from the bucket is converted to structurd format 
+        - the Structured data is sent back to RDS and the Frontend ui will do the ANlaytics and ML Capabilities and show the data. 
+        - My Responsibility is manage the AWS infrastrucutre/Monitor the Resources/ Provide Production Support.  
+
+
+Operations & Troubleshooting 
+----------------------------
+
+1. I have very Good Experience Doing Production Support and Handling Operations for MOnitoirng/Doing Remidiation and Mitigation. 
+2. Though i a developper Administrator myself, I am a Big Advocate of Agile Methodologies and operate in Agile Fashion in Scrum Ban and Kan Ban. 
+3. I have very Good KNowledge on the MOnitoring Aspects doing Proactive Montioring is the Key role. 
+4. The Best ways to do the Proactive Monitoring is to create automated scripts that provides the intelligence to detect any errors. 
+5. For DOing effective Operations, one must ensure that there is a thorough documentation interms of Handling incidents, Problems, Process & Issues. 
+6. Troubleshooting and investigation are 2 major objectives when you are working on Production Support. 
+   Our vision should be such a way to think the Problem in different directions and look at the logs and examine understand and document the results. 
+7. I am having excellent investigation skills at Database layer, APplication Layer (Middleware) , Presentation Layer (Apache http/IIS)
+   Network Layer (wireshark, Fiddler doing capturing packets) , analysing the TCP Dumps and troubleshooting pcap files etc. 
+8. I am very flexible and can stretch myself in a 24/5 support model as Production Support is really important. 
+9. I held responsible for creating the RCA (Root cause analysis) Document and conducting Postmortem calls to ensure that the Problems are fixed permanently. 
+10. I have very good knowldge on ITIL (CHange Management, Problem Management , Incident Mangement etc)
+
+                        
+    
