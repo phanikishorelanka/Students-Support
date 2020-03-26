@@ -1,16 +1,12 @@
 About me 
-  1. Hi I am currently working as a Devops Engineer, I am a Developper Administrator.   
-  2. i do 80 % of Devops work and 20% supporting Production Environments.  
-  3. i am a part of cloud center of excellence team. Our team supports various cloud Environments, 
+  1. Hi I am currently working as a Senior Devops Engineer  
+  2. i am from a team called cloud center of excellence team, This team is responsible for Providing Multi cloud support, We have our infra in Multiple clouds like AWS & Azure. 
   I actively work with various teams and responsible for maintaining and managing the environments. 
-  4. Most of my work is on CLoud Implimentations or Cloud Migraitons or Cloud Operations or Cloud Security. 
-     In Implimentation - We help teams in migrating virtual machine workloads, Container workloads to Cloud. 
-                         we also help in Creating a hybrid cloud and Help defining Network Rules & Configurations. 
-     In Migrations - i have knowledge how to move the onprem to cloud , We do Infrastructure Related Migrations - Lift & Shift or 
-                     Design Migration Strategy from Scratch, 
-     In Operations - We support the entire services hosted in cloud and also respoinsible for fixing any Misconfigurations,
-                     We do Provisioning/De-Comissioning of workloads in Cloud
-  5. I work Entire Build & Release Automation i.e CI/CD work , I work with Various teams in understanding thier requirements 
+  4. Most of my work is on Core Devops Projects relating to Cloud , Build and Release Automation, Containerization using Docker & Kubernetes, 
+     Configuation management using Ansible. 
+  5. I do help teams in Deisgning / Securing Solutions on the CLoud. 
+  6. As a Devops Engineer, My Responsibility is to work with various teams and bring maturity to the whole IT Process using automation. 
+  7. I do Corely work on  Entire Build & Release Automation i.e CI/CD work , I work with Various teams in understanding thier requirements 
       help creating Piplelines in tools like jenkins, bitbucket, gitlabs etc. 
   6. i have very good knowledge on Shell Scripting, Powershell Scripting, Python Data Structures, Change Management, Source control using git, Docker , Kubernetes , Configuraation Management using Ansible , Infrastructure as a code using terraform and aws/azure clouds.
   
