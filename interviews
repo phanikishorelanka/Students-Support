@@ -1,15 +1,17 @@
 About me 
   1. Hi I am currently working as a Senior Devops Engineer  
-  2. I am solutions Architect and a Devops Consultant, My Job is to architect several new Implementations on cloud and help on existing migrations from Onprem to Cloud. 
-  We are having Data in Multiple Clouds like AWS & Azure and i actively support these environments.  
-  3. I work on Core Devops Projects relating to Cloud , Build and Release Automation, Security and Unit Testing on Application, 
-  Helping teams to Move from MOnlithic to Containerization using Docker & Kubernetes, Configuation management using Ansible. 
-  4. I work very closely with Development teams and be a part of all phases of SDLC Starting from Design Phase to the Post Implementation, Automation & Support Phases. 
-  5. As a Devops Engineer, My Responsibility is to work with various teams and bring maturity to the whole IT Process using automation. 
-  6. I have Great experience on Build & Release Automation i.e CI/CD work , I work with Various teams in understanding thier requirements 
-      help creating Piplelines in tools like jenkins, bitbucket, gitlabs etc. 
-  7. i have very good knowledge on Shell Scripting, Powershell Scripting, Python Data Structures, Change Management, Source control using git, Docker , Kubernetes , Configuraation Management using Ansible , Infrastructure as a code using terraform and aws/azure clouds.
-  
+  2. I am solutions Architect , Devops & Automation ENgineer, I help teams in desiging Solutions on Cloud like AWS & Azure and also help on existing migrations from Onprem to Cloud. 
+  i also actively maintain and monitor all of these environments for any suspicious activities and issues. 
+      One of my key roles to do automation around infrastructure as a code using terraform , cft & Azure ARM templates. 
+  3. I work on Automation Projects and CI/CD Projects Build and Release Automation, Unit testing, Security testing, Deployments and i use tools like Jenkins/Azure Devops/Gitlabs/Code Pipeline etc.
+  4. One of my key role is to understand the Applications very well and help teams to Convert Monolithic Applications to Microservices using Docker and help archestrate these using Kubernetes. 
+  I have experience working with AKS & ACR in Azure, EKS & ECR in AWS, Little bit of GKE as well. 
+  5. I work very closely with Development teams and involve and help in all phases of SDLC Process , Starting from Design Phase to the Post Implementation, Automation & Support Phases. 
+  6. I have Great experience on Complete CI/CD , Automation using Ansible and chef , Containerization using Docker.  
+  7. Coming to my scripting, i worked on Shell Scripting/Powershell/Python Data Structures & Python Flask.
+
+Overall this is my experience working at a high level. I work with enterprise application group and actively support the Corporate Devops. 
+I can go more detail for anything. 
 
 ** Read Only for Managers/Lead Positions 
   8. I am responsible for Managing my team. I do create Project Plan and coordinate with Partners, Customers, Internal Stakeholders to take various approvals and 
@@ -25,7 +27,6 @@ What are your day to day operations?
   - I am responsible for Ensuring that Monitoring is Done on Each Asset and Ensure we are getting the logs. 
   - 25% of my work is on exploring new Technologies and doing POC on new tickets and Provide the Feedback and Make Production Ready APplications. 
   - Day starts with Checking the tickets, Responding to them and Gatekeeping Production Environment. 
-
  
 Technologies 
 
@@ -52,14 +53,25 @@ AMI(Amazon Machine Images), cloud watch, cloud trail, configuring the Lamdba fun
 
 ------------------------------------------------------------------------- 
 
-**Jenkins 
-1. My Responsibility in jenkins is to work with various teams and understand thier build and release process and then mature them by writing the pipelines. 
-i help the teams modifying and creating the pipelines for Both Continous Integration(CI) , and Continous Delivery (CD) 
-2. i also have knowlege on Installing jenkins and configuring various plugins like MVN plugin, SMTP plugin, Slack Plugin , Kubernetes plugin etc. 
-I have knowledge on clustering jenkins, Making the jenkins secure by enabling https and ssl tls v1.2. 
-3. In Jenkins i have experience working with Groovy , pipeline syntax.  
-3. Apart from these i have experience making the CI/CD as automated by creating the webhooks and make it as event driven. 
-4. My CI Pipeline looks like , its a 5 staged pipeline. 
+**CI/CD  
+1. I help teams in different forms of the CI/CD , One of my key responsibilites is to mature the process using Automation. 
+2. I help the teams in Creating Automated Parameterized Pipleines Continous Integration(CI) / Continous Delivery (CD) / Unit testing using Sonar and Selinum / Security testing using Fortify etc. 
+Deployments using Ansible on Linux and Powershell remoting on windows. 
+3. i have experience working with Groovy , pipeline syntax and create scripted/Declarative Pipelines.  
+4. I have experience making the CI/CD as automated by creating the webhooks for seemless integration on version control and CI/CD.
+5. I have strong experience in Jenkins in configuring several jobs , free style projects, conditional pipelines, building with multiple branches and so on. 
+6. I have strong experience also in Azure devops usuing Azure Repos(Git)/ Azure Build and Release pipelines / Azure Test Plans for automated testing/ Azure Artifacts. 
+7. In the Build process i used various technologies 
+     eg:- .net based applications we used MSBuild and Nuget based .net artifacts. 
+          Angular Based Apps we used npm 
+          Java based we used remote maven artifact feeds. 
+          Python based using Pip. 
+
+
+--------------------------
+
+Example of a CI Pipeline 
+ My CI Pipeline looks like , its a 5 staged pipeline. 
          Stage 1 --> Code Checkout. 
                        - Here we do the Code checkout from the version control
          Stage 2 --> Code Build / Artifact creation. 
@@ -74,6 +86,33 @@ I have knowledge on clustering jenkins, Making the jenkins secure by enabling ht
                        - Once the image is created , you can upload it to the ECR(AWS-Elastic Container Registry)/ACR(Azure Container Registry) 
 
 ------------------------------------------------------------------------- 
+
+** Branching and Merging Strategy 
+
+We use Git flow branching. 
+   1. According to this Method, We create 3 different branches in each git repo called Development/QA & Release. 
+   2. for us the flow is from Development --> QA --> Release Branches. 
+   3. Development branch is used for daily and adhoc builds on Development. 
+   4. QA Branch is for Collating all daily builds to Candidate or Production Builds. anything deployed in Prod is first deployed and tested in QA. 
+   5. Basically when a developer want to develop any featuere , he will create his own branch which is a copy of dev branch and does the development 
+   6. Developer then raises a Merge request with source as his branch and destination as Development branch. 
+   7. Once the Code is in Dev Branch a merge request raised to QA and QA Deployment is done and here we do security testing and unit test and feedback.
+   8. Once everything is ok , QA --> Release, anathor merge request is raised and final build for prod is generated and deployed. 
+   
+---------------------------------------------------------------------------------------   
+   
+
+A develop branch is created from master
+A release branch is created from develop
+Feature branches are created from develop
+When a feature is complete it is merged into the develop branch
+When the release branch is done it is merged into develop and master
+If an issue in master is detected a hotfix branch is created from master
+Once the hotfix is complete it is merged to both develop and master
+
+
+
+
 
 **Docker & Kubernetes:- 
 
