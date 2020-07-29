@@ -63,8 +63,9 @@ Deployments using Ansible on Linux and Powershell remoting on windows.
 6. I have strong experience also in Azure devops usuing Azure Repos(Git)/ Azure Build and Release pipelines / Azure Test Plans for automated testing/ Azure Artifacts. 
 7. In the Build process i used various technologies 
      eg:- .net based applications we used MSBuild and Nuget based .net artifacts. 
-          Angular Based Apps we used npm 
-          Java based we used remote maven artifact feeds. 
+          Angular Based Apps we used npm , here we do npm install , npm build-prod
+          Java based we used remote maven artifact feeds. , here we do mvn validate, mvn compile , mvn test , mvn install. 
+               here we can configure a local or remote maven depending upon the requirement. 
           Python based using Pip. 
 
 
@@ -100,20 +101,7 @@ We use Git flow branching.
    8. Once everything is ok , QA --> Release, anathor merge request is raised and final build for prod is generated and deployed. 
    
 ---------------------------------------------------------------------------------------   
-   
-
-A develop branch is created from master
-A release branch is created from develop
-Feature branches are created from develop
-When a feature is complete it is merged into the develop branch
-When the release branch is done it is merged into develop and master
-If an issue in master is detected a hotfix branch is created from master
-Once the hotfix is complete it is merged to both develop and master
-
-
-
-
-
+  
 **Docker & Kubernetes:- 
 
 1. My Responsibility in Docker is to work with Various teams and understand the Application and convert the vm based application to a docker image and scale them and deploy them on the kubernetes cluster like EKS(elastic Kubernetes Service)/AKS(Azure Kubernetes cluster)
