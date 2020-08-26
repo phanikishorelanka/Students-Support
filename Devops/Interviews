@@ -1,13 +1,14 @@
 About me 
   1. Hi I am currently working as a Senior Devops Engineer  
-  2. I am solutions Architect , Devops & Automation ENgineer, I help teams in desiging Solutions on Cloud like AWS & Azure and also help on existing migrations from Onprem to Cloud. 
-  i also actively maintain and monitor all of these environments for any suspicious activities and issues. 
-      One of my key roles to do automation around infrastructure as a code using terraform , cft & Azure ARM templates. 
-  3. I work on Automation Projects and CI/CD Projects Build and Release Automation, Unit testing, Security testing, Deployments and i use tools like Jenkins/Azure Devops/Gitlabs/Code Pipeline etc.
+  2. I am Devops Consultant, Cloud Architect & Automation ENgineer, I help teams in desiging Solutions on Cloud. 
+  I work on both AWS & Azure, I am from Digital Transformation team, I help teams to implement new Applications on cloud and work on migrations, Planning and execution. 
+  I have hands on infrastructure as a code using terraform , cft & Azure ARM templates. 
+  3. I work on Automation Projects , CI/CD Projects , Build and Release Automation, Unit testing, Security testing, Deployments and i use tools like Jenkins/Azure Devops/Gitlabs/Code Pipeline etc.
   4. One of my key role is to understand the Applications very well and help teams to Convert Monolithic Applications to Microservices using Docker and help archestrate these using Kubernetes. 
   I have experience working with AKS & ACR in Azure, EKS & ECR in AWS, Little bit of GKE as well. 
   5. I work very closely with Development teams and involve and help in all phases of SDLC Process , Starting from Design Phase to the Post Implementation, Automation & Support Phases. 
-  6. I have Great experience on Complete CI/CD , Automation using Ansible and chef , Containerization using Docker.  
+  6. I have hands on Ansible and chef 
+  7. I help teams in Implementing Containerization using Docker archestrating using Kubernetes.  
   7. Coming to my scripting, i worked on Shell Scripting/Powershell/Python Data Structures & Python Flask.
   8. COming to Monitoring i have expereince working with Nagios, Splunk, ELK (Elastic Search/Logstash/Kibana), Prometheus , Grafana , New Relic. 
 
